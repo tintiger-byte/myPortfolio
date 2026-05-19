@@ -37,18 +37,11 @@
 ---
 
 ### ✨ 주요 경력
-
-#### AI Innovation (2026 - Present)
-&emsp;*정밀 금형 설계*<br>
-&emsp;*제조 기술 최적화*<br>
-
-#### China Operations (2016 - 2025)
-&emsp;*China Market Strategy*<br>
-&emsp;*International Management*<br>
-
-#### Digital / IT (Before 2015)
-&emsp;*AI Worker - Vibe Coding*<br>
-&emsp;*e-Book & Web/App Design*<br>
+| 연도 | 항 목 | 주요 내용 |
+|:-------:|:-------:|-------|
+| 2026 - Present | AI Innovation | &emsp;AI 기반의 Vibe Coding 구현.<br>&emsp;e-Book (Digital Publishing).<br>&emsp;Web/App (Digital Product Development). |
+| 2016 - 2025 | China Operations | &emsp;중국 현지 제조 법인 총괄 및 기술 고문.<br>&emsp;글로벌 생산 기지 최적화 및 성공적 현지화.<br>&emsp;50개 이상의 대형 프로젝트 수행.|
+| Before 2015 | Digital / IT | &emsp;한국 내 주요 금형 기술 연구소 및 제조 기업 관리자 역임.<br>&emsp;1,000건 이상의 정밀 금형 설계 및 제작 총괄.<br>&emsp;3D 프린팅 신기술 프로젝트 성공. |
 
 ---
 
