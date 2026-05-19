@@ -3,19 +3,19 @@
 **GLOBAL TECHNICAL INNOVATOR**
 ## 40년 제조 현장 노하우에 AI를 더한 글로벌 기술 혁신가
 
-*금형 기술의 전문가에서 AI 기반 제조 시스템 전문가로.
-중국 10년의 글로벌 리더십과 40년의 전문성을 바탕으로
-미래 산업의 디지털 전환을 이끕니다.*
----
-
-## 🌐 Live Demo
-
-👉 Portfolio Site :  
-[MyPortfolio GitHub Repository](https://github.com/tintiger-byte/myPortfolio)
+*금형 기술의 전문가에서 AI 기반 제조 시스템 전문가로 중국 10년의 글로벌 리더십과 40년의 전문성을 바탕으로 미래 산업의 디지털 전환을 이끕니다.*
 
 ---
 
-# 🚀 About This Portfolio
+### 🌐 연락처
+
+📱 010-2245-2654&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+📧 tintiger@naver.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+🏠 대전시 유성구
+
+---
+
+## 🚀 핵심 역량
 
 이 포트폴리오는 단순한 소개 페이지가 아니라,  
 저의 개발 역량과 디자인 감각을 하나의 경험으로 표현하기 위해 제작되었습니다.
