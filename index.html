@@ -219,6 +219,10 @@
 
       <div class="stats-row" data-animate>
         <div class="stat-card">
+          <div class="stat-val"><span class="stat-num" data-target="40">0</span></div>
+          <p class="stat-label">YEARS' EXPERIENCE</p>
+        </div>
+        <div class="stat-card">
           <div class="stat-val"><span class="stat-num" data-target="1000">0</span><span class="stat-plus">+</span></div>
           <p class="stat-label">MOLD DESIGNS</p>
         </div>
@@ -230,21 +234,32 @@
           <div class="stat-val"><span class="stat-num" data-target="5">0</span></div>
           <p class="stat-label">BOOKS AUTHORED &amp;<br>Apps Developed</p>
         </div>
-        <div class="stat-card">
-          <div class="stat-val"><span class="stat-num" data-target="40">0</span></div>
-          <p class="stat-label">YEARS' EXPERIENCE</p>
-        </div>
       </div>
 
       <div class="project-grid">
         <div class="project-card" data-animate>
+          <div class="project-img-wrap counter-card-wrap">
+            <img src="images/v3_314.png" alt="Years Experience" />
+            <div class="project-overlay"></div>
+            <div class="counter-overlay">
+              <span class="year-counter" data-start="1987" data-target="2026">1987</span>
+              <button class="year-btn" id="replayCounterBtn" aria-label="Replay year counter">SINCE ↻</button>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Years' Experience</h3>
+            <p class="project-desc">제조 현장 기술 경험 40년</p>
+          </div>
+        </div>
+
+        <div class="project-card" data-animate data-delay="100">
           <div class="project-img-wrap carousel-container" id="moldCarousel">
             <div class="carousel-track">
-              <div class="carousel-slide"><img src="img/tiremold1.jpg" alt="Mold Design 1" draggable="false" /></div>
-              <div class="carousel-slide"><img src="img/tiremold2.jpg" alt="Mold Design 2" draggable="false" /></div>
-              <div class="carousel-slide"><img src="img/tiremold3.jpg" alt="Mold Design 3" draggable="false" /></div>
-              <div class="carousel-slide"><img src="img/tiremold4.png" alt="Mold Design 4" draggable="false" /></div>
-              <div class="carousel-slide"><img src="img/tiremold5.jpg" alt="Mold Design 5" draggable="false" /></div>
+              <div class="carousel-slide"><img src="img/mold1.png" alt="Mold Design 1" draggable="false" /></div>
+              <div class="carousel-slide"><img src="img/mold2.png" alt="Mold Design 2" draggable="false" /></div>
+              <div class="carousel-slide"><img src="img/mold3.png" alt="Mold Design 3" draggable="false" /></div>
+              <div class="carousel-slide"><img src="img/mold4.jpg" alt="Mold Design 4" draggable="false" /></div>
+              <div class="carousel-slide"><img src="img/mold5.png" alt="Mold Design 5" draggable="false" /></div>
             </div>
             <div class="carousel-nav">
               <button class="carousel-btn prev" aria-label="Previous Slide">
@@ -269,16 +284,18 @@
           </div>
           <div class="project-info">
             <h3 class="project-title">Mold Design</h3>
-            <p class="project-desc">타이어 금형 디자인 및 <br>확산 설계 기술 적용 성공</p>
+            <p class="project-desc">타이어 금형 디자인 및 <br>확산 설계 기술</p>
           </div>
         </div>
 
-        <div class="project-card" data-animate data-delay="100">
+        <div class="project-card" data-animate data-delay="200">
           <div class="project-img-wrap carousel-container" id="globalProjectCarousel">
             <div class="carousel-track">
-              <div class="carousel-slide"><img src="img/gp1.png" alt="Global Project 1" draggable="false" /></div>
-              <div class="carousel-slide"><img src="img/gp2.png" alt="Global Project 2" draggable="false" /></div>
-              <div class="carousel-slide"><img src="img/gp3.png" alt="Global Project 3" draggable="false" /></div>
+              <div class="carousel-slide casting-slide" id="gpCastingSlide" title="클릭하여 주조 시뮬레이션 시작">
+                <img src="img/gp1.png" alt="Global Project 1" draggable="false" />
+                <canvas class="casting-canvas" id="castingCanvas"></canvas>
+              </div>
+
             </div>
             <div class="carousel-nav">
               <button class="carousel-btn prev" aria-label="Previous Slide">
@@ -301,20 +318,30 @@
           </div>
           <div class="project-info">
             <h3 class="project-title">Global Project</h3>
-            <p class="project-desc">저압 주조 생산 공정 최적화 및 정밀 금형 기술 현지화 성공</p>
+            <p class="project-desc">저압 주조 생산 공정 최적화 및 정밀 금형 기술</p>
           </div>
         </div>
 
-        <div class="project-card" data-animate data-delay="200">
+        <div class="project-card" data-animate data-delay="300">
           <div class="project-img-wrap carousel-container" id="booksCarousel">
             <div class="carousel-track">
-              <div class="carousel-slide"><img src="img/myStoryBook_1.png" alt="My Story Book 1" draggable="false" />
+              <div class="carousel-slide">
+                <a href="https://heyzine.com/flip-book/809e7d89cf.html" target="_blank" rel="noopener noreferrer">
+                  <img src="img/myStoryBook_1.png" alt="My Story Book 1" draggable="false" />
+                </a>
               </div>
-              <div class="carousel-slide"><img src="img/myStoryBook_2.png" alt="My Story Book 2" draggable="false" />
+              <div class="carousel-slide">
+                <a href="https://heyzine.com/flip-book/44a6566a82.html" target="_blank" rel="noopener noreferrer">
+                  <img src="img/myStoryBook_2.png" alt="My Story Book 2" draggable="false" />
+                </a>
               </div>
-              <div class="carousel-slide"><img src="img/myStoryBook_3.png" alt="My Story Book 3" draggable="false" />
+              <div class="carousel-slide">
+                <a href="https://heyzine.com/flip-book/5f88db402b.html" target="_blank" rel="noopener noreferrer">
+                  <img src="img/myStoryBook_3.png" alt="My Story Book 3" draggable="false" />
+                </a>
               </div>
-              <div class="carousel-slide"><img src="img/baropay-app.png" alt="Baropay App" draggable="false" /></div>
+              <div class="carousel-slide"><img src="img/boongeozzang-app.png" alt="BoongeoZzang App"
+                  draggable="false" /></div>
               <div class="carousel-slide"><img src="img/ddokddok-app.png" alt="Ddokddok App" draggable="false" /></div>
             </div>
             <div class="carousel-nav">
@@ -341,21 +368,6 @@
           <div class="project-info">
             <h3 class="project-title">Books &amp; Apps</h3>
             <p class="project-desc">3 e-Books 및 2 Apps</p>
-          </div>
-        </div>
-
-        <div class="project-card" data-animate data-delay="300">
-          <div class="project-img-wrap counter-card-wrap">
-            <img src="images/v3_314.png" alt="Years Experience" />
-            <div class="project-overlay"></div>
-            <div class="counter-overlay">
-              <span class="year-counter" data-start="1987" data-target="2026">1987</span>
-              <button class="year-btn" id="replayCounterBtn" aria-label="Replay year counter">SINCE ↻</button>
-            </div>
-          </div>
-          <div class="project-info">
-            <h3 class="project-title">Years' Experience</h3>
-            <p class="project-desc">제조 현장 기술 경험 40년</p>
           </div>
         </div>
       </div>

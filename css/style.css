@@ -761,9 +761,17 @@ ul { list-style: none; }
   justify-content: center;
 }
 
+.carousel-slide a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
 .carousel-slide img {
-  width: 90%;
-  height: calc(100% - 32px);
+  width: 75%;
+  height: calc(100% - 48px);
   margin-bottom: 16px;
   object-fit: contain;
   pointer-events: none;
@@ -1300,3 +1308,83 @@ ul { list-style: none; }
   .stats-row { grid-template-columns: 1fr 1fr; }
   .stat-num { font-size: 40px; }
 }
+
+/* ═══════════════════════════════════════
+   CASTING ANIMATION OVERLAY
+   ═══════════════════════════════════════ */
+.casting-slide {
+  position: relative;
+}
+
+.casting-canvas {
+  position: absolute;
+  pointer-events: none;
+  z-index: 2;
+  will-change: transform;
+}
+
+.casting-overlay-btn {
+  position: absolute;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(13, 13, 13, 0.85);
+  border: 1px solid rgba(245, 197, 24, 0.4);
+  padding: 8px 16px;
+  border-radius: 20px;
+  color: var(--text-primary);
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s var(--ease-out);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  user-select: none;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.casting-overlay-btn:hover {
+  background: rgba(245, 197, 24, 0.15);
+  border-color: var(--gold);
+  color: var(--gold);
+  box-shadow: 0 4px 20px rgba(245, 197, 24, 0.2);
+  transform: translateX(-50%) translateY(-2px);
+}
+
+.casting-overlay-btn:active {
+  transform: translateX(-50%) translateY(0);
+}
+
+.casting-overlay-btn.active {
+  border-color: #ff4500;
+  color: #ffcc00;
+  box-shadow: 0 4px 20px rgba(255, 69, 0, 0.3);
+  background: rgba(255, 69, 0, 0.1);
+  pointer-events: none;
+}
+
+.casting-overlay-btn.completed {
+  border-color: #00e676;
+  color: #00e676;
+  box-shadow: 0 4px 20px rgba(0, 230, 118, 0.2);
+  background: rgba(0, 230, 118, 0.1);
+}
+
+.casting-btn-icon {
+  font-size: 14px;
+  display: inline-block;
+}
+
+.casting-overlay-btn.active .casting-btn-icon {
+  animation: pulse-fire 1s infinite alternate;
+}
+
+@keyframes pulse-fire {
+  0% { transform: scale(1); filter: drop-shadow(0 0 2px #ff4500); }
+  100% { transform: scale(1.2); filter: drop-shadow(0 0 8px #ffcc00); }
+}
+
